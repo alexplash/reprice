@@ -1,4 +1,4 @@
-![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.56.42 PM.png)
+![App Screenshot](demo_images/Screenshot 2024-01-05 at 1.56.42 PM.png)
 ![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.56.52 PM.png)
 ![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.57.16 PM.png)
 ![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.57.27 PM.png)
