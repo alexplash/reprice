@@ -1,3 +1,8 @@
+![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.56.42 PM.png)
+![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.56.52 PM.png)
+![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.57.16 PM.png)
+![App Screenshot](/Users/alexplash/reprice/demo_images/Screenshot 2024-01-05 at 1.57.27 PM.png)
+
 RePrice allows users to input their app category and their current monthly pricing. The app then returns the top 10 app competitors within the inputted category, along with the monthly pricing and ratings for each. The findings are displayed in a simple dashboard, comparing the user's app information with the found competitors.
 
 Features
