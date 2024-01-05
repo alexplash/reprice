@@ -25,7 +25,7 @@ shinyServer(function(input, output, session) {
     shinyjs::show('loading')
     shinyjs::hide("input_section")
     
-    py_run_string(paste("import sys; sys.argv = ['webscrape.py', '", input$text_input, "']; exec(open('/Users/alexplash/reprice_app/webscrape.py').read())"))
+    py_run_string(paste("import sys; sys.argv = ['webscrapeNOAI.py', '", input$text_input, "']; exec(open('/Users/alexplash/reprice/webscrapeNOAI.py').read())"))
     avg_price_from_py <- py$avg_price
     app_prices_from_py <- py$app_prices
     prices <- as.numeric(unlist(app_prices_from_py))
