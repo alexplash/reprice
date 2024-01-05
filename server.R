@@ -64,7 +64,7 @@ shinyServer(function(input, output, session) {
       bar_colors <- ifelse(data_combined$AppNames == "Your App", "blue",
                            ifelse(data_combined$OriginallyZero, "orange", "lightblue"))
       plot_ly(data_combined, x = ~AppNames, y = ~Prices, type = 'bar', marker = list(color = bar_colors)) %>%
-        layout(title = 'App Est. Prices',
+        layout(title = 'App Prices',
                xaxis = list(title = 'App Names'),
                yaxis = list(title = 'Dollars per Month'),
                plot_bgcolor = '#333333', 
