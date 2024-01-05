@@ -1,0 +1,10 @@
+/* Changing Font, Weight, Style, and Color of dashboardHeader Title */
+.skin-blue .main-header .logo {
+    color: #89CFF0; /* Baby Blue */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+

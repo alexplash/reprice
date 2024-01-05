@@ -1,0 +1,33 @@
+/* Body: Dark Grey */
+.content-wrapper, 
+.skin-blue .main-sidebar, 
+.skin-blue .left-side {
+    background-color: #3c3c3c; /* Dark grey */
+}
+
+/* Sidebar: Even Darker Grey */
+.skin-blue .main-sidebar, 
+.skin-blue .left-side, 
+.skin-blue .main-sidebar .sidebar {
+    background-color: #1a1a1a; /* Even darker grey */
+}
+
+/* Header: Darker Grey */
+.skin-blue .main-header, 
+.skin-blue .main-header .navbar, 
+.skin-blue .main-header .logo {
+    background-color: #2a2a2a; /* Darker grey */
+}
+
+/* Text and links color for better contrast */
+.skin-blue .sidebar a,
+.skin-blue .treeview-menu > li > a,
+.skin-blue .sidebar-menu > li.header {
+    color: #ddd;
+}
+
+/* Active state sidebar menu */
+.skin-blue .sidebar-menu > li.active > a {
+    border-left-color: #ddd;
+    background: #111;
+}

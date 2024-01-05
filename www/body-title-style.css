@@ -1,0 +1,14 @@
+.body-title {
+    color: #808080; /* Gray color */
+    font-family: 'Open Sans', sans-serif !important;  
+    font-size: 45px !important;
+    font-weight: 500 !important; /* Increase font weight for a thicker font */
+    font-style: normal !important;
+    margin-top: 5px !important; /* Adjust margin to move text further down */
+    margin-bottom: 15px !important;
+}
+
+
+
+
+
