@@ -11,5 +11,4 @@ Requirements
 OpenAI API Key: RePrice requires a working OpenAI API key for pricing estimation.
 PostgreSQL Database: A connection to a PostgreSQL database is needed for the storage of app data findings.
 
-Demo Images
 
