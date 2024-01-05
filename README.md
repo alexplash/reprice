@@ -11,4 +11,12 @@ Requirements
 OpenAI API Key: RePrice requires a working OpenAI API key for pricing estimation.
 PostgreSQL Database: A connection to a PostgreSQL database is needed for the storage of app data findings.
 
+NOTES
+
+webscrapeNOAI.py is the default file used for webscraping data.
+In order to use the AI pricing estimation algorith, within server.r, change this line:
+'py_run_string(paste("import sys; sys.argv = ['webscrapeNOAI.py', '", input$text_input, "']; exec(open('/Users/alexplash/reprice/webscrapeNOAI.py').read())"))'
+to this line:
+'py_run_string(paste("import sys; sys.argv = ['webscrape.py', '", input$text_input, "']; exec(open('/Users/alexplash/reprice/webscrape.py').read())"))'
+
 
